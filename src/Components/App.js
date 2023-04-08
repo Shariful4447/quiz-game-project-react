@@ -1,7 +1,14 @@
+import Layout from "../Components/Layout";
+import QuizList from "../Components/QuizList";
+
+import "../styles/App.css";
+
 function App() {
   return (
-    <div className="App">
-      <div>Hello world!</div>
+    <div>
+      <Layout></Layout>
+
+      <QuizList></QuizList>
     </div>
   );
 }
